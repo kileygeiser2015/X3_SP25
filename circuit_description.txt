@@ -1,0 +1,15 @@
+<node name="A" x="100" y="100" />
+<node name="B" x="200" y="100" />
+<node name="C" x="300" y="100" />
+<node name="D" x="300" y="200" />
+<node name="E" x="200" y="200" />
+<node name="F" x="100" y="200" />
+
+<voltage name="V1" n1="F" n2="A" />
+<inductor name="L1" n1="A" n2="B" />
+<resistor name="R1" n1="B" n2="E" />
+<capacitor name="C1" n1="C" n2="D" />
+
+<wire name="W1" n1="B" n2="C" />
+<wire name="W2" n1="D" n2="E" />
+<wire name="W3" n1="E" n2="F" />
